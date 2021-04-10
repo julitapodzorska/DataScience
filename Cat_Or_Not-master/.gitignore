@@ -1,0 +1,8 @@
+*.idea
+*check
+*db.sqlite3
+*image_exported.png
+*__pycache__
+*asgi.py
+*settings.py
+*wsgi.py

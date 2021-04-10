@@ -1,0 +1,21 @@
+<div>
+    {% if predicted == 0 %}
+        {% load static %} <img src="{% static 'cat_dog.jpg' %}">
+        <p> Looks like a cat! </p>
+    {% elif predicted == 1 %}
+        {% load static %} <img src="{% static 'cat_dog.jpg' %}">
+        <p> Well, this is clearly a doggo! </p>
+    {% endif %}
+</div>
+     <button><a class="button" href="http://127.0.0.1:8000/">Predict Again</button>
+
+<style>
+
+    .button {
+    color: black;
+
+    }
+
+
+
+</style>
